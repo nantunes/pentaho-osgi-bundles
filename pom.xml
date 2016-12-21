@@ -54,10 +54,10 @@
     <json-simple.version>1.1.1</json-simple.version>
     <felix.version>4.2.1</felix.version>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <karaf.version>3.0.3</karaf.version>
+    <karaf.version>3.0.8</karaf.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <cxf.version>3.0.6</cxf.version>
-    <felix-fileinstall.version>3.4.2</felix-fileinstall.version>
+    <felix-fileinstall.version>3.5.2</felix-fileinstall.version>
     <mockito.version>1.9.5</mockito.version>
     <requirejs.version>2.1.19</requirejs.version>
   </properties>
