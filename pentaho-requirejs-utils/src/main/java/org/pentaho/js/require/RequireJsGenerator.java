@@ -317,6 +317,10 @@ public class RequireJsGenerator {
     if ( json.containsKey( "config" ) ) {
       requireConfig.put( "config", json.get( "config" ) );
     }
+
+    if ( json.containsKey( "bundles" ) ) {
+      requireConfig.put( "bundles", json.get( "bundles" ) );
+    }
   }
 
   private Object extractPackage( Map<String, Object> json, String moduleName, Map<String, Object> paths,
@@ -524,6 +528,10 @@ public class RequireJsGenerator {
 
     if ( requireConfig.containsKey( "config" ) ) {
       requirejs.put( "config", requireConfig.get( "config" ) );
+    }
+
+    if ( requireConfig.containsKey( "bundles" ) ) {
+      requirejs.put( "bundles", requireConfig.get( "bundles" ) );
     }
 
     return requirejs;
