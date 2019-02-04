@@ -28,12 +28,12 @@
     <dependency>
       <groupId>org.osgi</groupId>
       <artifactId>org.osgi.compendium</artifactId>
-      <version>4.3.1</version>
+      <version>5.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.osgi</groupId>
       <artifactId>org.osgi.core</artifactId>
-      <version>4.3.1</version>
+      <version>5.0.0</version>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -76,7 +76,7 @@
     <dependency>
       <groupId>org.ops4j.pax.web</groupId>
       <artifactId>pax-web-spi</artifactId>
-      <version>3.1.4</version>
+      <version>7.2.5</version>
     </dependency>
   </dependencies>
   <build>

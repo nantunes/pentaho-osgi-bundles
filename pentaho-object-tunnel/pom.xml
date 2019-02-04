@@ -13,7 +13,7 @@
   <packaging>bundle</packaging>
   <properties>
     <rxjava.dependency.version>2.2.3</rxjava.dependency.version>
-    <felix.version>4.4.1</felix.version>
+    <felix.version>5.6.10</felix.version>
   </properties>
   <dependencies>
     <dependency>
