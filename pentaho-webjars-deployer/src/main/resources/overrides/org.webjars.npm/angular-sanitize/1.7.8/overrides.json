@@ -1,0 +1,16 @@
+{
+  "packages": [
+    {
+      "name": "angular-sanitize",
+      "location": "/",
+      "main": "angular-sanitize.js",
+    }
+  ],
+
+  "shim": {
+    "angular-sanitize/angular-sanitize": {
+      "exports": "angular",
+      "deps": ["angular"]
+    }
+  }
+}

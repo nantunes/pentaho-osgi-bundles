@@ -1,4 +1,12 @@
 {
+  "packages": [
+    {
+      "name": "angular",
+      "location": "/",
+      "main": "angular.js",
+    }
+  ],
+
   "dependencies": {
     "jquery": "^2.0"
   },

@@ -1,0 +1,16 @@
+{
+  "packages": [
+    {
+      "name": "angular-route",
+      "location": "/",
+      "main": "angular-route.js",
+    }
+  ],
+
+  "shim": {
+    "angular-route/angular-route": {
+      "exports": "angular",
+      "deps": ["angular"]
+    }
+  }
+}

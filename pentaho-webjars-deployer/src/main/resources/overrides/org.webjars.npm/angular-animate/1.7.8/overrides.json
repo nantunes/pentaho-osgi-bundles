@@ -1,0 +1,16 @@
+{
+  "packages": [
+    {
+      "name": "angular-animate",
+      "location": "/",
+      "main": "angular-animate.js",
+    }
+  ],
+
+  "shim": {
+    "angular-animate/angular-animate": {
+      "exports": "angular",
+      "deps": ["angular"]
+    }
+  }
+}
